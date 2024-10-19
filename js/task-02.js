@@ -14,7 +14,7 @@ ingredients.forEach(liItem => {
   const li = document.createElement('li');
   li.textContent = liItem;
   li.classList.add('item');
-  fragment.appendChild;
+  fragment.appendChild(li);
 });
 
 listOfIngredients.appendChild(fragment);
